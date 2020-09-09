@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from marshmallow_sqlalchemy import ModelSchema
 from marshmallow import fields
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://<username>:<pass>@localhost:3306/<DB>'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root@54.172.104.173:4000/test'
 db = SQLAlchemy(app)
 
 ###Models####
